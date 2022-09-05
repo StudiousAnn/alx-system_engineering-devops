@@ -1,2 +1,2 @@
 #!/bin/bash
-greo -l "A[a-z]" /etc/ssh/sshd_config
+greo -l "^[a-z]" /etc/ssh/sshd_config
